@@ -45,6 +45,7 @@ hist(summary$stepssum, main = "Histogram of Total Steps Taken Each Day",
 
 
 ### Ok, let's see what the mean and median are for the same variable.
+**BOTH MEAN AND MEDIAN ARE PLOTTED.  MEDIAN IS 0.**
 ```{r}
 plot(summary$date, summary$mean, type = "l", main = "Mean of Total Steps Per Day", xlab = "Date", ylab = "Steps Per Day")
         points(summary$date, summary$median, type = "l", col = "blue")
